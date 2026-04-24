@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="gEFlS4OGCS0vBskdeICG">
+    <mxGraphModel dx="1551" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="🖥️ 用户入口层（宿主平台）" vertex="1">
+          <mxGeometry height="120" width="760" x="30" y="10" as="geometry">
+            <mxRectangle height="30" width="190" x="30" y="10" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-3" parent="b1pdofcp9SF1PZ89Q6F_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="VS Code 扩展&#xa;Syslab / Sysplorer Copilot" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-4" parent="b1pdofcp9SF1PZ89Q6F_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="桌面 GUI&#xa;Tauri 2 + React" vertex="1">
+          <mxGeometry height="60" width="160" x="200" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-5" parent="b1pdofcp9SF1PZ89Q6F_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Web 端&#xa;Go 后端 + React 前端" vertex="1">
+          <mxGeometry height="60" width="160" x="380" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-6" parent="b1pdofcp9SF1PZ89Q6F_-2" style="rounded=1;whiteSpace=wrap;html=1;" value="终端 TUI&#xa;Bubble Tea (Go)" vertex="1">
+          <mxGeometry height="60" width="160" x="560" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="🎨 前端 UI 层（TypeScript / React）" vertex="1">
+          <mxGeometry height="190" width="760" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-44" edge="1" parent="b1pdofcp9SF1PZ89Q6F_-7" source="b1pdofcp9SF1PZ89Q6F_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-8" parent="b1pdofcp9SF1PZ89Q6F_-7" style="rounded=1;whiteSpace=wrap;html=1;" value="agent-sidebar-webview&#xa;侧边栏聊天面板" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-45" edge="1" parent="b1pdofcp9SF1PZ89Q6F_-7" source="b1pdofcp9SF1PZ89Q6F_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-9" parent="b1pdofcp9SF1PZ89Q6F_-7" style="rounded=1;whiteSpace=wrap;html=1;" value="agent-webview&#xa;宽屏独立布局" vertex="1">
+          <mxGeometry height="60" width="160" x="200" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-11" parent="b1pdofcp9SF1PZ89Q6F_-7" style="rounded=1;whiteSpace=wrap;html=1;" value="platform-bridge&#xa;VS Code / Tauri 平台桥接" vertex="1">
+          <mxGeometry height="60" width="160" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-10" parent="b1pdofcp9SF1PZ89Q6F_-7" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;fronted&lt;/div&gt;前端公共UI组件库" vertex="1">
+          <mxGeometry height="60" width="160" x="380" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="📋 协议层（@mworks-ai/protocols）" vertex="1">
+          <mxGeometry height="220" width="220" x="30" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-13" parent="b1pdofcp9SF1PZ89Q6F_-12" style="rounded=1;whiteSpace=wrap;html=1;" value="Webview Protocol&#xa;扩展 ↔ UI 消息格式" vertex="1">
+          <mxGeometry height="45" width="180" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-14" parent="b1pdofcp9SF1PZ89Q6F_-12" style="rounded=1;whiteSpace=wrap;html=1;" value="ACP Types&#xa;AI 交互数据结构" vertex="1">
+          <mxGeometry height="45" width="180" x="20" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-15" parent="b1pdofcp9SF1PZ89Q6F_-12" style="rounded=1;whiteSpace=wrap;html=1;" value="Chat Context&#xa;附件 / 上下文类型" vertex="1">
+          <mxGeometry height="45" width="180" x="20" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="🔧 VS Code 扩展核心（TypeScript）" vertex="1">
+          <mxGeometry height="220" width="520" x="270" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-17" parent="b1pdofcp9SF1PZ89Q6F_-16" style="rounded=1;whiteSpace=wrap;html=1;" value="sidebarBootstrap&#xa;服务装配层" vertex="1">
+          <mxGeometry height="45" width="140" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-18" parent="b1pdofcp9SF1PZ89Q6F_-16" style="rounded=1;whiteSpace=wrap;html=1;" value="sidebarSessionManager&#xa;会话生命周期管理" vertex="1">
+          <mxGeometry height="45" width="160" x="180" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-19" parent="b1pdofcp9SF1PZ89Q6F_-16" style="rounded=1;whiteSpace=wrap;html=1;" value="sidebarActionHandler&#xa;用户动作处理" vertex="1">
+          <mxGeometry height="45" width="140" x="360" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-20" parent="b1pdofcp9SF1PZ89Q6F_-16" style="rounded=1;whiteSpace=wrap;html=1;" value="acp/ 客户端&#xa;ACP 协议适配" vertex="1">
+          <mxGeometry height="45" width="140" x="20" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-21" parent="b1pdofcp9SF1PZ89Q6F_-16" style="rounded=1;whiteSpace=wrap;html=1;" value="mcp/ 管理器&#xa;MCP 工具代理" vertex="1">
+          <mxGeometry height="45" width="160" x="180" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-22" parent="b1pdofcp9SF1PZ89Q6F_-16" style="rounded=1;whiteSpace=wrap;html=1;" value="runtimeController&#xa;子进程管控" vertex="1">
+          <mxGeometry height="45" width="140" x="360" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-23" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="⚙️ AI 运行时（Go）" vertex="1">
+          <mxGeometry height="180" width="500" x="30" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-24" parent="b1pdofcp9SF1PZ89Q6F_-23" style="rounded=1;whiteSpace=wrap;html=1;" value="apps/modelx&#xa;Agent 主进程&#xa;--stdio 模式" vertex="1">
+          <mxGeometry height="80" width="140" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-25" parent="b1pdofcp9SF1PZ89Q6F_-23" style="rounded=1;whiteSpace=wrap;html=1;" value="libs/core&#xa;传输 / 会话 / 工具网关" vertex="1">
+          <mxGeometry height="45" width="140" x="180" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-26" parent="b1pdofcp9SF1PZ89Q6F_-23" style="rounded=1;whiteSpace=wrap;html=1;" value="libs/tools&#xa;具体工具实现" vertex="1">
+          <mxGeometry height="45" width="140" x="340" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-27" parent="b1pdofcp9SF1PZ89Q6F_-23" style="rounded=1;whiteSpace=wrap;html=1;" value="memory / SQLite&#xa;会话持久化" vertex="1">
+          <mxGeometry height="45" width="300" x="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-28" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="☁️ 外部 LLM" vertex="1">
+          <mxGeometry height="180" width="240" x="550" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-29" parent="b1pdofcp9SF1PZ89Q6F_-28" style="rounded=1;whiteSpace=wrap;html=1;" value="OpenAI 兼容 API" vertex="1">
+          <mxGeometry height="50" width="160" x="40" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-30" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="🎨 共享 UI 基础设施" vertex="1">
+          <mxGeometry height="300" width="200" x="840" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-31" parent="b1pdofcp9SF1PZ89Q6F_-30" style="rounded=1;whiteSpace=wrap;html=1;" value="design-token&#xa;CSS 变量三层体系" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-32" parent="b1pdofcp9SF1PZ89Q6F_-30" style="rounded=1;whiteSpace=wrap;html=1;" value="ui/components&#xa;基础 UI 组件" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-33" parent="b1pdofcp9SF1PZ89Q6F_-30" style="rounded=1;whiteSpace=wrap;html=1;" value="i18n&#xa;国际化资源" vertex="1">
+          <mxGeometry height="45" width="160" x="20" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-34" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-35" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-36" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-37" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="150" />
+              <mxPoint x="810" y="150" />
+              <mxPoint x="810" y="670" />
+              <mxPoint x="120" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-40" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-42" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1pdofcp9SF1PZ89Q6F_-43" edge="1" parent="1" source="b1pdofcp9SF1PZ89Q6F_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" target="b1pdofcp9SF1PZ89Q6F_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
